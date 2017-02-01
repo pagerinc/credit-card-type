@@ -1,2 +1,11 @@
 ---
   extends: braintree/client
+  rules:
+    wrap-iife:
+      - error
+      - outside
+    strict:
+      - error
+      - never
+  globals:
+    define: true
